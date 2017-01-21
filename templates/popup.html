@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Thank you</title>
+	<link type="text/css" rel="stylesheet" media="all" href="/static/css/popup.css">
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js" type="text/javascript"></script>
+	<script src="/static/js/popup.js" type="text/javascript"></script>
+	<script type="text/javascript">
+
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-8012311-21']);
+	  _gaq.push(['_trackPageview']);
+
+	  (function() {
+	    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+	    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+	    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	  })();
+
+	</script>
+</head>
+
+<body>
+	<div id="root">
+		<div id="content">
+		<h1>Thank you</h1>
+		<p>By receiving this card and playing this game with us, you are contributing to MT&amp;L&#8217;s annual charitable gift. We understand a lot goes into keeping a community happy and healthy, so we would like to spread our donation across several charities this holiday season. Please suggest which organization you would like to receive a donation from MT&amp;L on your behalf:</p>
+		<form>
+		<table width="438" border="0" id="choices" cellpadding="0" cellspacing="0" border="0">
+			<tr class="odd">
+				<td class="desc"><strong>The Art Gallery of Nova Scotia</strong> &mdash; its two branches make art more accessible across the province.</td>
+				<td class="button"><input type="submit" value="Donate" id="agns"></td>
+			</tr>
+			<tr class="even">
+				<td class="desc"><strong>The Beaverbrook Art Gallery</strong> &mdash; committed to enriching life through art.</td>
+				<td class="button"><input type="submit" value="Donate" id="beaverbrook"></td>
+			</tr>
+			<tr class="odd">
+				<td class="desc"><strong>The QEII Foundation</strong> &mdash; leading philanthropy, to bring better health care to all Atlantic Canadians.</td>
+				<td class="button"><input type="submit" value="Donate" id="qeii"></td>
+			</tr>
+			<tr class="even">
+				<td class="desc"><strong>Pathways (Spryfield)</strong> &mdash; helping students make it to high school graduation, and a brighter future.</td>
+				<td class="button"><input type="submit" value="Donate" id="pathways"></td>
+			</tr>
+			<tr class="odd">
+				<td class="desc"><strong>PALS (Partners Assisting Local Schools) Program</strong> &mdash; linking New Brunswick businesses with students through powerful mentorships.</td>
+				<td class="button"><input type="submit" value="Donate" id="pals"></td>
+			</tr>
+		</table>
+		</form>
+		</div>
+		
+		<div id="done" style="display: none;">
+			<p>Thank you for playing and giving. MT&amp;L wishes you the very best of the season, and a happy and healthy New Year.</p>
+			<p id="replay">Play again?</p>
+		</div>
+	</div>
+</body>
+
+</html>

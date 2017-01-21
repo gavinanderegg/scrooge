@@ -1,0 +1,353 @@
+*
+{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	z-index: 0;
+}
+
+
+body
+{
+	font-family: 'Vollkorn', Georgia, Times, 'Times New Roman', sans-serif;
+	font-size: 14px;
+	background-image: url(/static/img/bg.jpg);
+	background-position: center top;
+	padding-top: 20px;
+	line-height: 132%;
+}
+
+
+#shadow
+{
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	min-height: 600px;
+	width: 100%;
+	background-image: url(/static/img/book-shadow.png);
+	background-position: center 12px;
+	background-repeat: no-repeat;
+}
+
+
+#root
+{
+	display: block;
+	position: relative;
+}
+
+
+#container
+{
+	display: block;
+	position: relative;
+	background-image: url(/static/img/book2.gif);
+	background-position: center top;
+	background-repeat: no-repeat;
+	margin: auto;
+	min-height: 712px;
+	width: 999px;
+}
+
+
+#book
+{
+	position: relative;
+	top: 48px;
+	left: 0;
+	display: block;
+	width: 948px;
+	height: 600px;
+	margin: auto;
+	
+}
+
+
+#left
+{
+	position: relative;
+	top: 12px;
+	left: 0;
+	display: block;
+	width: 458px;
+	height: 528px;
+	background-image: url(/static/img/outline.gif);
+	background-position: center top;
+	background-repeat: no-repeat;
+}
+	#display
+	{
+		position: relative;
+		display: block;
+		top: 68px;
+		left: 8px;
+		width: 442px;
+		height: 265px;
+	}
+	
+	#log
+	{
+		position: absolute;
+		top: 350px;
+		left: 60px;
+		display: block;
+		width: 328px;
+		height: 155px;
+		overflow: auto;
+		padding: 6px;
+	}
+	
+	#log p
+	{
+		color: #A09080;
+		margin: 6px 0;
+	}
+	
+	#log div
+	{
+		margin-top: 12px;
+		padding-top: 12px;
+		border-top: 1px solid #654;
+	}
+	
+	#log div.newText p
+	{
+		color: #321;
+		
+	}
+
+
+
+
+
+#right
+{
+	position: absolute;
+	top: 0;
+	right: 0;
+	display: block;
+	width: 458px;
+	height: 528px;
+}
+	#ribbon
+	{
+		position: absolute;
+		top: -52px;
+		left: 24px;
+		display: block;
+		width: 151px;
+		height: 604px;
+		overflow: auto;
+		padding: 6px;
+		background-image: url(/static/img/ribbon.png);
+		background-position: center top;
+		background-repeat: no-repeat;
+	}
+	
+	#buttons
+	{
+		position: relative;
+	}
+	
+	#buttons *
+	{
+		text-indent: -999em;
+	}
+
+
+#invHeader
+{
+	position: relative;
+	display: block;
+	width: 121px;
+	height: 13px;
+	margin: 52px auto 6px auto;
+	background-image: url('/static/img/inv.png');
+	background-repeat: no-repeat;
+}
+
+#invTinsel
+{
+	position: relative;
+	display: none;
+	width: 84px;
+	height: 91px;
+	margin: 24px auto;
+	background-image: url('/static/img/inv-tinsel.png');
+	background-repeat: no-repeat;
+}
+
+#invCandles
+{
+	position: relative;
+	display: none;
+	width: 54px;
+	height: 73px;
+	margin: 24px auto;
+	background-image: url('/static/img/inv-candle.png');
+	background-repeat: no-repeat;
+}
+
+#invBird
+{
+	position: relative;
+	display: none;
+	width: 96px;
+	height: 56px;
+	margin: 24px auto;
+	background-image: url('/static/img/inv-bird.png');
+	background-repeat: no-repeat;
+}
+
+
+#instructions
+{
+	position: absolute;
+	top: 0;
+	right: 16px;
+	display: block;
+	width: 252px;
+	height: 600px;
+}
+
+#instructionsHeader
+{
+	position: relative;
+	display: block;
+	width: 178px;
+	height: 26px;
+	margin: 1px auto;
+	background-image: url('/static/img/instructions.png');
+	background-repeat: no-repeat;
+}
+
+#instructions ul
+{
+	list-style-image: url('/static/img/bullet.png');
+	margin: 12px 36px 12px 40px;
+	padding-bottom: 12px;
+	background-image: url('/static/img/line-bottom.png');
+	background-position: bottom center;
+	background-repeat: no-repeat;
+}
+
+#instructions ul li
+{
+	margin: 6px 0;
+}
+
+#stopper
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: block;
+	width: 100%;
+	height: 100%;
+	z-index: 100;
+}
+
+#quitButton
+{
+	position: absolute;
+	bottom: -42px;
+	right: 32px;
+	display: block;
+	width: 43px;
+	height: 18px;
+	background-image: url('/static/img/quit.png');
+	cursor: pointer;
+}
+
+#gameDone
+{
+	text-decoration: underline;
+	color: #33C;
+	cursor: pointer;
+}
+
+#logo a
+{
+	position: absolute;
+	bottom: 2px;
+	right: 6px;
+	display: block;
+	width: 88px;
+	height: 30px;
+	background-image: url('/static/img/logo.png');
+	text-indent: -999em;
+}
+
+
+#bottom
+{
+	position: relative;
+	display: block;
+	width: 900px;
+	margin: auto;
+	margin-top: 16px;
+	padding-bottom: 128px;
+	color: #FEC;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Verdana, Tahoma, sans-serif;
+	font-size: 14px;
+	line-height: 160%;
+	text-shadow: rgba(0, 0, 0, 1) 0 2px 2px;
+}
+
+#bottom h1
+{
+	font-size: 18px;
+	line-height: 120%;
+	font-weight: bold;
+	margin-bottom: 8px;
+}
+
+#bottom h2
+{
+	font-size: 18px;
+	margin: 24px 0;
+}
+
+#bottom ul
+{
+	margin-left: 32px;
+}
+
+#bottom p, #bottom ul li
+{
+	margin: 18px 12px;
+}
+
+#bottom a
+{
+	color: #DEF;
+}
+
+#bottom strong
+{
+	font-size: 16px;
+}
+
+#bottomLeft
+{
+	position: relative;
+	float: left;
+	display: block;
+	width: 420px;
+}
+
+#bottomRight
+{
+	position: relative;
+	float: right;
+	display: block;
+	width: 420px;
+}
+
+#bottomBottom
+{
+	clear: both;
+}

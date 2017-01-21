@@ -1,0 +1,83 @@
+*
+{
+	margin: 0;
+	padding: 0;
+	z-index: 0;
+}
+
+
+body
+{
+	font-family: 'Vollkorn', Georgia, Times, 'Times New Roman', sans-serif;
+	font-size: 14px;
+	line-height: 132%;
+}
+
+#root
+{
+	margin: 12px;
+}
+
+h1
+{
+	margin: 4px 0 0 0;
+	font-family: tahoma, sans-serif;
+	margin-bottom: 12px;
+}
+
+p
+{
+	margin: 12px 8px;
+}
+
+table
+{
+	border: 0;
+	border-collapse: collapse;
+}
+
+tr.odd
+{
+	background-color: #EEEEEF;
+}
+
+td
+{
+	padding: 6px 0;
+}
+
+td.desc
+{
+	padding: 6px 0 6px 8px;
+	width: 340px;
+}
+
+td.button
+{
+	width: 98px;
+	text-align: center;
+}
+
+#choices
+{
+	margin: auto;
+}
+
+#done
+{
+	font-size: 168%;
+	line-height: 140%;
+	padding-top: 80px;
+}
+
+#done p
+{
+	margin: 48px;
+}
+
+#replay
+{
+	text-decoration: underline;
+	color: #33C;
+	cursor: pointer;
+}
